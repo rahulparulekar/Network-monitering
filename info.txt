@@ -1,0 +1,41 @@
+Run the Script:
+
+Save the code to a Python file (e.g., netcheck.py).
+Open your terminal or command prompt.
+Navigate to the directory where the script is saved.
+Run the script using python netcheck.py.
+Welcome Message:
+
+Upon running the script, you'll see a welcome message.
+Select a Tool:
+
+The script will display a menu with options to choose from:
+Enter 1 for Telnet
+Enter 2 for Netcat (TCP)
+Enter 3 for Netcat (UDP)
+Enter 4 for Traceroute
+Choose a Tool:
+
+For this example, let's say you want to test a Telnet connection. Enter 1 and press Enter.
+Enter IP Address:
+
+You'll be prompted to enter the target IP address. Input the IP address you want to test (e.g., 192.168.1.1) and press Enter.
+Enter Port:
+
+Next, you'll be prompted to enter the target port number. Input the port number (e.g., 80) and press Enter.
+Tool Execution:
+
+The script will execute the chosen tool (in this case, Telnet) with the provided IP address and port.
+Result:
+
+You'll see the output of the Telnet command.
+Repeat or Exit:
+
+After executing the selected tool, you'll be asked if you want to make another NetCheck (Y/n). 
+If you want to perform another network check, type Y and press Enter. If you want to exit the script, type n and press Enter.
+Repeat or Exit:
+
+Depending on your choice, you can either perform another network check or exit the script.
+Remember that this script allows you to choose from Telnet, Netcat (TCP), Netcat (UDP), 
+and Traceroute tools, and it provides a simple way to interactively test network connections. 
+You can repeat the process for different tools and IP/port combinations as needed.
